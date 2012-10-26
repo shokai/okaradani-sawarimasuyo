@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 # -*- coding: utf-8 -*-
 require 'rubygems'
-require 'tw'
-require 'json'
+require 'bundler'
+Bundler.require
 
 threshold = 20
 
