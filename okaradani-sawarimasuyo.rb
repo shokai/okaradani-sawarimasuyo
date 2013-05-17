@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 # -*- coding: utf-8 -*-
 require 'rubygems'
-require 'bundler'
+require 'bundler/setup'
 Bundler.require
 
 parser = ArgsParser.parse ARGV do
